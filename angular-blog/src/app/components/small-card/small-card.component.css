@@ -1,13 +1,17 @@
+.principal{
+    margin-bottom: 2.9rem;
+}
+
+
 .container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 4rem;
-    /* border: red solid 1px; */
     width: 40vw;
 }
 
 .container .img img{
     width: 20vw;
+    height: 22vh;
     border-radius:9px;
 }
 
@@ -15,4 +19,12 @@
     font-size: 2rem;
     margin-left: 0.8rem;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line{
+    border: red solid 2px;
+    border-radius: 5px;
 }

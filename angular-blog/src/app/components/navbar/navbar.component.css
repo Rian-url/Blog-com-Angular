@@ -1,0 +1,25 @@
+.navbar{
+    margin-top: 2rem;
+}
+
+.container .items-navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.container .items-navbar li{
+    list-style: none;
+    margin-right: 1.8rem;
+}
+
+.container .items-navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.container .items-navbar li a:hover {
+  font-size: 1.5rem;
+  color: red;
+}
